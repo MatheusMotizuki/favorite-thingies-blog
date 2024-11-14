@@ -19,7 +19,7 @@ body {
     height: 90vh; /* Take up 90% of the viewport height */
     max-width: 960px; /* Max width of the grid container */
     margin: 0 auto; /* Center the grid */
-    overflow: auto; /* Allow scrolling if content exceeds height */
+    /* overflow: auto; Allow scrolling if content exceeds height */
 }
 
 .image-item {
@@ -27,12 +27,21 @@ body {
     text-align: center; /* Center the text under each image */
     width: 300px; /* Full width */
     height: auto;
+    position: relative;
+    /* overflow: hidden; Hide any part of the image that overflows */
+    border-radius: 8px; /* Optional: rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
 }
 
 .image-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease; /* Smooth transition for image scaling */
+}
+
+.image-item img:hover {
+    transform: scale(1.1); /* Zoom in image more than the container */
 }
 
 .image-title {
@@ -40,17 +49,10 @@ body {
     font-size: 16px; /* Adjust font size as needed */
     color: #333; /* Optional: set text color */
     position: relative; /* Ensure title stays below image */
+    transition: transform 0.3s ease, color 0.3s ease
 }
 
-/* Optional: Add responsiveness for smaller screens */
-@media (max-width: 768px) {
-    .image-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
-    }
-}
-
-@media (max-width: 480px) {
-    .image-grid {
-        grid-template-columns: 1fr; /* 1 column on very small screens */
-    }
+.image-item:hover .image-title {
+    transform: translateY(20px); /* Move the title up when hovered */
+    color: #f0a500; /* Optional: change title color on hover */
 }
