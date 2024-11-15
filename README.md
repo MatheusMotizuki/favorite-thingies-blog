@@ -1,1 +1,0 @@
-# favorite-thingies-blog
