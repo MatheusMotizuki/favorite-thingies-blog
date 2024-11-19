@@ -7,22 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="recommend.css">
     <title>[Blog] Favorite things</title>
 </head>
 <body>
-    <aside class="sidebar">
-        <h2>Filter by Category</h2>
-        <ul>
-            <li><a href="#" data-filter="all">All</a></li>
-            <li><a href="#" data-filter="cards">Cards</a></li>
-            <li><a href="#" data-filter="dices">Dices</a></li>
-            <li><a href="#" data-filter="strategy">Strategy</a></li>
-            <li><a href="#" data-filter="board">Board Game</a></li>
-            <li><a href="#" data-filter="gambling">Gambling</a></li>
-        </ul>
-    </aside>
     <div class="container">
         <div class="main">
             <div class="image-grid">
@@ -94,10 +84,32 @@
                 </div>
             </div>
         </div>
-        <footer>
-            MedievalCore || Proudly wrought for Master Chessman's task! || <a href="index.html">return home</a>
-        </footer>
+
     </div>
-    <script src="recommend.js"></script>
+    <footer class="navigation-test">
+        <ul class="ul-controls-test">
+            <li>
+                <h3>Home</h3>
+                <img src="/static/closed-door.png" style="cursor: url('static/LINK\ SELECT.cur')" class="door-image home" width="110" height="130" alt="closed">
+            </li>
+            <li>
+                <h3>Melodies of the Realm</h3>
+                <img src="/static/closed-door.png" style="cursor: url('static/LINK\ SELECT.cur')" class="door-image melodies" width="110" height="130" alt="closed">
+            </li>
+            <li>
+                <h3>Beautiful art</h3>
+                <img src="/static/closed-door.png" style="cursor: url('static/LINK\ SELECT.cur')" class="door-image art" width="110" height="130" alt="closed">
+            </li>
+            <li>
+                <h3>Worthy Recommendations</h3>
+                <img src="/static/closed-door.png" style="cursor: url('static/LINK\ SELECT.cur')" class="door-image recommend" width="110" height="130" alt="closed">
+            </li>
+            <li>
+                <h3>Door Secrets</h3>
+                <img src="/static/closed-door.png" style="cursor: url('static/LINK\ SELECT.cur')" class="door-image secrets" width="110" height="130" alt="closed">
+            </li>
+        </ul>
+        <script src="index.js"></script>
+    </footer>
 </body>
 </html>
