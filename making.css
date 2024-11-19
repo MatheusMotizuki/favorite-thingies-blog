@@ -1,0 +1,62 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #041940 url(static/background/1234.jpg) fixed;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    word-break: break-word;
+}
+
+.main-content a {
+    color: #ffffff;
+}
+
+.navigation-test {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.ul-controls-test {
+    border-top: 30px solid transparent;
+    border-image: url('/static/chain.png') 1000 10 repeat;
+    margin-top: -20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ul-controls-test li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul-controls-test li h3 {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-family: 'Uncial Antiqua', serif;
+    color: #ffffff;
+    margin-bottom: 5px;
+    user-select: none;
+}
+
+.ul-controls-test li img {
+    display: block;
+}
