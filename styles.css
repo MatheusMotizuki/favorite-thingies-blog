@@ -153,6 +153,7 @@ body {
 
 .navigation-test {
     background-color: black;
+
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -176,7 +177,9 @@ body {
 
 .ul-controls-test li h3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-family: 'Uncial Antiqua', serif;
     color: #ffffff;
     margin-bottom: 5px;
     user-select: none;
