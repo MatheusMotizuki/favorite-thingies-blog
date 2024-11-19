@@ -28,15 +28,16 @@ body {
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    width: 100%;
+    gap: 2%;
+    width: 100vw;
     height: 90vh;
     max-width: 960px;
     margin: 0 auto;
 }
 
 .main {
-    height: 700px;
+    height: 75vh;
+    margin-top: 1%;
     order: 2;
     background-color: transparent;
     overflow: auto;
