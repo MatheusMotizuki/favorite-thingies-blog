@@ -8,12 +8,12 @@
 }
 
 html {
-    cursor: url("/static/NORMAL\ SELECT.cur"), auto;
+    cursor: url("./static/NORMAL\ SELECT.cur"), auto;
 }
 
 body {
     margin: 0;
-    background: #041940 url(static/background/OIP.jpg) fixed;
+    background: #041940 url(./static/background/OIP.jpg) fixed;
 }
 
 .image-grid {
@@ -104,7 +104,7 @@ a:hover {
 
 .ul-controls-test {
     border-top: 30px solid transparent;
-    border-image: url('/static/chain.png') 1000 10 repeat;
+    border-image: url('./static/chain.png') 1000 10 repeat;
     margin-top: -20px;
     list-style: none;
     display: flex;

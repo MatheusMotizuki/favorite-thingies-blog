@@ -1,5 +1,5 @@
 html{
-    cursor: url("/static/NORMAL\ SELECT.cur"), auto;
+    cursor: url("./static/NORMAL\ SELECT.cur"), auto;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #041940 url(static/background/1234.jpg) fixed;
+    background: #041940 url(./static/background/1234.jpg) fixed;
 }
 
 .main-content {
@@ -37,7 +37,7 @@ body {
 
 .ul-controls-test {
     border-top: 30px solid transparent;
-    border-image: url('/static/chain.png') 1000 10 repeat;
+    border-image: url('./static/chain.png') 1000 10 repeat;
     margin-top: -20px;
     list-style: none;
     display: flex;

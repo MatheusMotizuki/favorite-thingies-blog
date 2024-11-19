@@ -5,7 +5,7 @@
 }
 
 html{
-    cursor: url("/static/NORMAL\ SELECT.cur"), auto;
+    cursor: url("./static/NORMAL\ SELECT.cur"), auto;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    background: #041940 url(static/background/this.jpg) fixed;
+    background: #041940 url(./static/background/this.jpg) fixed;
 }
 
 .main {
@@ -65,7 +65,7 @@ body {
 .head {
     position: relative;
     height: 145px;
-    background: transparent url(static/sword.gif) no-repeat 70% top; 
+    background: transparent url(./static/sword.gif) no-repeat 70% top; 
     color: #041940;
 }
 
@@ -164,7 +164,7 @@ body {
 
 .ul-controls-test {
     border-top: 30px solid transparent;
-    border-image: url('/static/chain.png') 1000 10 repeat;
+    border-image: url('./static/chain.png') 1000 10 repeat;
     margin-top: -20px;
     list-style: none;
     display: flex;
@@ -191,78 +191,6 @@ body {
 .ul-controls-test li img {
     display: block;
 }
-
-/* 
-.ul-controls {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.ul-controls li {
-    margin: 0 15px;
-    color: #2e1e0f;
-    font-size: 1.2rem;
-    position: relative;
-    display: inline-block;
-}
-
-.ul-controls li a {
-    cursor: url("/static/LINK\ SELECT.cur"), auto;
-    text-decoration: none;
-    color: #463526;
-    font-weight: bold;
-    padding: 5px;
-    animation: text-related 0.5s ease-in-out infinite;
-}
-
-@keyframes text-related {
-    0%{
-        text-decoration: underline;
-    }
-    25%{
-        text-decoration: none;
-    }
-    50%{
-        text-decoration: underline;
-    }
-    75%{
-        text-decoration: none;
-    }
-    100%{
-        text-decoration: underline;
-    }
-}
-
-.ul-controls li a:hover {
-    color: #6b533f;
-    text-decoration: underline;
-    animation: none;
-}
-
-.ul-controls li::before {
-    content: "";
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.ul-controls li:hover::before {
-    animation: pulse 0.2s infinite;
-    content: "»";
-}
-
-@keyframes pulse {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
-} */
 
 @media (max-width: 768px) {
     .main-content {
