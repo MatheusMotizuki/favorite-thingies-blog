@@ -22,7 +22,7 @@ document.querySelectorAll('.door-image').forEach(img => {
             } else if (img.classList.contains('melodies')) {
                 window.location.href = "/music.html";
             } else if (img.classList.contains('art')) {
-                window.location.href = "/writing.html";
+                window.location.href = "/art.html";
             } else if (img.classList.contains('home')) {
                 window.location.href = "/index.html";
             } else {

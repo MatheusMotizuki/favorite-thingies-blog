@@ -1,3 +1,6 @@
+html{
+    cursor: url("/static/NORMAL\ SELECT.cur"), auto;
+}
 
 body {
     margin: 0;
