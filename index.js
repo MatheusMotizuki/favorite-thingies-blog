@@ -29,5 +29,4 @@ document.querySelectorAll('.door-image').forEach(img => {
                 window.location.href = "/recommend.html";
             }
         }, 100);
-    });
-});
+    })});

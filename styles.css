@@ -175,9 +175,8 @@ body {
 }
 
 .ul-controls-test li h3 {
-    font-size: 1.3rem;
-    line-height: 1.6;
-    font-family: 'Uncial Antiqua', serif;
+    text-align: center;
+    font-size: 2rem;
     color: #ffffff;
     margin-bottom: 5px;
     user-select: none;
