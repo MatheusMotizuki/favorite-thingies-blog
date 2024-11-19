@@ -14,14 +14,17 @@ document.querySelectorAll('.door-image').forEach(img => {
     });
 
     // Click event: Redirect based on the class of the image
+    // This is used instead of an <a> tag because we want to delay the redirect
     img.addEventListener('click', () => {
         setTimeout(() => {
-            if (img.classList.contains('art')) {
-                window.location.href = "/paintings.html";
+            if (img.classList.contains('secrets')) {
+                window.location.href = "/making.html";
             } else if (img.classList.contains('melodies')) {
                 window.location.href = "/music.html";
-            } else if (img.classList.contains('tales')) {
+            } else if (img.classList.contains('art')) {
                 window.location.href = "/writing.html";
+            } else if (img.classList.contains('home')) {
+                window.location.href = "/index.html";
             } else {
                 window.location.href = "/recommend.html";
             }
